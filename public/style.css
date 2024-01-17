@@ -1,0 +1,223 @@
+body {
+    background-color: darkgreen;
+}
+
+#pile {
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url('http://www.murphysmagicsupplies.com/images_email/Mandolin_BACK.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#empty-pile {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card {
+    height: 120px;
+    width: 70px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.player-card {
+    margin-top: 3px;
+    margin-left: -0.5px;
+}
+
+.highlight {
+    border: 3px solid #fff;
+}
+
+.computer-card {
+    margin: 5px;
+}
+
+.card-outline {
+    height: 126px;
+    width: 76px;
+    border-radius: 10px;
+    margin: 2.5px;
+    display: inline-block;
+    background-color: darkgreen;
+}
+
+.card-outline-hightlight {
+    height: 127.5px;
+    width: 77.5px;
+    border-radius: 10px;
+    margin: 2.5px;
+    display: inline-block;
+    background-color: red;
+}
+
+.button {
+    margin-right: 2%;
+}
+
+#buttons {
+    margin-top: -1vh;
+}
+
+.board-card {
+    height: 70px;
+    width: 40px;
+    margin: 0 1px;
+    border-radius: 10px;
+}
+
+.meld {
+    display: inline-block;
+    margin: 25px 15px;
+}
+
+.border {
+    border: 3px solid black;
+}
+
+.modal-text {
+    text-align: center;
+}
+
+.modal {
+    margin-top: 40vh;
+    text-align: center;
+}
+
+#question-mark {
+    display: inline-block;
+    color: #fff;
+    border: none;
+    background: darkgreen;
+    font-size: 35px;
+}
+
+#question-mark:hover {
+    cursor: pointer;
+}
+
+h1 {
+    color: orange;
+    font-weight: bold;
+    border-bottom: 4px solid black;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: orange;
+    font-weight: bold;
+}
+
+h3 {
+    color: orange;
+    font-weight: bold;
+}
+
+#instructions-modal {
+    width: 80% !important;
+    left: 11%;
+    top: -135vh;
+    padding: 20px;
+}
+
+.modal {
+    position: relative;
+    background-color: #fff;
+    z-index: 5;
+    width: 30%;
+    top: -118vh;
+    left: 35%;
+    border: 6px solid black;
+    border-radius: 10px;
+}
+
+.modal h4 {
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.ok-btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.inner {
+    display: inline-block;
+}
+
+.outer-board {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.outer {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.outer-hand {
+    height: 140px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.left {
+    border-left: 2px solid black;
+}
+
+.top {
+    border-top: 2px solid black;
+}
+
+.top-right {
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.score-table {
+    margin: 25px auto;
+}
+
+td {
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold-top {
+    border-top: 4px solid black;
+}
+
+.bold-top-right {
+    border-top: 4px solid black;
+    border-right: 2px solid black;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    padding: 1.2vh 3.2vh;
+    font-weight: bold;
+    border-color: black;
+}
+
+.btn:hover {
+    background-color: red;
+    border-color: red;
+    color: #fff;
+}
